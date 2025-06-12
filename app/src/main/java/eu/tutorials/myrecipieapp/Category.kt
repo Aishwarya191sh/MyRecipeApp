@@ -1,7 +1,8 @@
 package eu.tutorials.myrecipieapp
 
+
 import android.os.Parcelable
-import kotlinx.android.parcel.Parcelize
+import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class Category(val idCategory: String,
@@ -12,3 +13,8 @@ data class Category(val idCategory: String,
 
 
 data class CategoryResponse(val categories: List<Category>)
+
+
+
+
+

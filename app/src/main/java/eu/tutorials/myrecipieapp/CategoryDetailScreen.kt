@@ -22,11 +22,10 @@ fun CategoryDetailScreen(category: Category){
     Column(modifier= Modifier
         .fillMaxSize()
         .padding(16.dp),
-       // verticalArrangement = ,
         horizontalAlignment = Alignment.CenterHorizontally){
         Text(text=category.strCategory, textAlign = TextAlign.Center)
         Image(
-            painter=rememberAsyncImagePainter(category.strCategoryThumb),
+            rememberAsyncImagePainter(category.strCategoryThumb),
             contentDescription = "${category.strCategory} Thumbnail",
             modifier = Modifier
                 .wrapContentSize()

@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
 
-                   RecipeApp(navController)
+                   RecipeApp(navController=navController)
 
                 }
             }

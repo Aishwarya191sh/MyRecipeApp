@@ -64,6 +64,7 @@ fun CategoryItem(category: Category,
         .fillMaxSize()
         .clickable {
                   navigateToDetail(category)
+              //    println("Clicked category: ${category.strCategory}")
         },
         horizontalAlignment = Alignment.CenterHorizontally){
 
@@ -73,6 +74,7 @@ fun CategoryItem(category: Category,
             modifier = Modifier
                 .fillMaxSize()
                 .aspectRatio(1f)
+
 
         )
 
